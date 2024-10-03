@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contenido:" />
+
+    <CheckBox
+        android:id="@+id/cbGorras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gorras" />
+
+    <CheckBox
+        android:id="@+id/cbBanadores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bañadores" />
+
+    <CheckBox
+        android:id="@+id/cbCamisetas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camisetas" />
+
+    <CheckBox
+        android:id="@+id/cbZapatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zapatos" />
+
+    <CheckBox
+        android:id="@+id/cbPantacas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pantalones" />
+
+    <CheckBox
+        android:id="@+id/cbLibros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Libros" />
+
+    <TextView
+        android:id="@+id/lblPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:text="Peso 0 Kg"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/btnVaciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VACIAR MOCHILA" />
+</LinearLayout>
