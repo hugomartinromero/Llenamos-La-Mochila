@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -12,50 +11,50 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Contenido:" />
+        android:text="@string/contenido" />
 
     <CheckBox
         android:id="@+id/cbGorras"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Gorras" />
+        android:text="@string/gorras" />
 
     <CheckBox
         android:id="@+id/cbBanadores"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Bañadores" />
+        android:text="@string/banadores" />
 
     <CheckBox
         android:id="@+id/cbCamisetas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Camisetas" />
+        android:text="@string/camisetas" />
 
     <CheckBox
         android:id="@+id/cbZapatos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Zapatos" />
+        android:text="@string/zapatos" />
 
     <CheckBox
         android:id="@+id/cbPantacas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pantalones" />
+        android:text="@string/pantalones" />
 
     <CheckBox
         android:id="@+id/cbLibros"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Libros" />
+        android:text="@string/libros" />
 
     <TextView
         android:id="@+id/lblPeso"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/acme"
-        android:text="Peso 0 Kg"
+        android:text="@string/peso"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="48sp" />
@@ -64,5 +63,5 @@
         android:id="@+id/btnVaciar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="VACIAR MOCHILA" />
+        android:text="@string/vaciar" />
 </LinearLayout>

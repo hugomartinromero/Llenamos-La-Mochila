@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Llenamos la Mochila</string>
+    <string name="contenido">Contenido:</string>
+    <string name="gorras">Gorras</string>
+    <string name="banadores">Bañadores</string>
+    <string name="camisetas">Camisetas</string>
+    <string name="zapatos">Zapatos</string>
+    <string name="pantalones">Pantalones</string>
+    <string name="vaciar">VACIAR MOCHILA</string>
+    <string name="kg">Kg</string>
+    <string name="peso">Peso</string>
+    <string name="libros">Libros</string>
 </resources>
